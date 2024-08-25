@@ -1,0 +1,120 @@
+body {
+  padding: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  display: block;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 400px;
+  border-radius: 4px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(169, 169, 169, 0.5);
+}
+
+input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  background: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-left: 16px;
+  margin-right: 8px;
+}
+
+input:disabled {
+  color: #808080;
+  border: 1px solid #808080;
+}
+
+input:hover {
+  border: 1px solid #000000;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #4e75ff;
+}
+
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background: #4e75ff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border: none;
+}
+
+button:disabled {
+  color: #989898;
+  background: #cfcfcf;
+}
+
+button:disabled:hover {
+  color: #989898;
+  background: #cfcfcf;
+}
+
+button:hover {
+  background: #6c8cff;
+}
+
+.timer {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+  justify-content: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  height: 72px;
+}
+
+.value {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  text-transform: uppercase;
+}
+
+.flatpickr-calendar {
+  font-family: Montserrat;
+}
