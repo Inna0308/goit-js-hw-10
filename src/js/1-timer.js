@@ -29,7 +29,7 @@ const options = {
     userSelectedDate = selectedDates[0];
     if (userSelectedDate <= Date.now()) {
       iziToast.show({
-        iconUrl: `${icon}#icon-blocked`,
+        iconUrl: `${icon}#icon-cross`,
         title: 'Error',
         message: 'Please choose a date in the future',
         position: 'topRight',
