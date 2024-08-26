@@ -17,7 +17,9 @@ const secondSpan = document.querySelector('span[data-seconds]');
 
 let userSelectedDate;
 
-import icon from '../img/icon.svg';
+import icon from '../img/error-massage.svg';
+
+startBtn.disabled = true;
 
 const options = {
   enableTime: true,
@@ -29,7 +31,7 @@ const options = {
     userSelectedDate = selectedDates[0];
     if (userSelectedDate <= Date.now()) {
       iziToast.show({
-        iconUrl: `${icon}#icon-cross`,
+        iconUrl: `${icon}`,
         title: 'Error',
         message: 'Please choose a date in the future',
         position: 'topRight',
